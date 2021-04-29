@@ -1,5 +1,4 @@
 package main
-//TODO publish to github reporitory
 import (
 	"fmt"
 	"log"
