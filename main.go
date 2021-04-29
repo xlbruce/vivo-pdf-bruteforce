@@ -24,7 +24,7 @@ func GeneratePasswords(result *string) func() string {
 
 func usage() string {
   //TODO improve binary execution
-	return `go run main.go <pdf_filename>`
+  return fmt.Sprintf("Usage: %s <pdf_filename>", os.Args[0])
 }
 
 func main() {
